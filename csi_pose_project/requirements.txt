@@ -1,0 +1,17 @@
+# Python 3.9 — đã kiểm chứng trên Windows + GTX 1650 Ti CUDA 12.x
+
+# Core ML
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.24,<2.0
+matplotlib>=3.7
+
+# Vision + Pose ground truth
+opencv-python>=4.8
+mediapipe==0.10.9          # bản này khớp với API code; phiên bản mới đổi API
+
+# Serial / CSI
+pyserial>=3.5
+
+# Cài torch với CUDA 12.1 trên Windows (tách câu lệnh vì requirements.txt không hỗ trợ --index-url thẳng):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
