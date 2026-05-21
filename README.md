@@ -16,5 +16,5 @@ Pipeline:
 
 ```text
 ESP32 CSI → Preprocessing → CNN + BiLSTM → 17 Keypoints → 2D Skeleton
-
+```
 <img width="1013" height="632" alt="image" src="https://github.com/user-attachments/assets/67f87237-9c83-4c02-aad3-392c6bb7e531" />
