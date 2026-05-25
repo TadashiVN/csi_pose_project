@@ -19,3 +19,6 @@ ESP32 CSI → Preprocessing → CNN + BiLSTM → 17 Keypoints → 2D Skeleton
 ```
 <img width="1068" height="342" alt="image" src="https://github.com/user-attachments/assets/6ef0caae-6f67-43bd-b890-56b98138a9fd" />
 
+## Results
+
+<img width="1225" height="529" alt="image" src="https://github.com/user-attachments/assets/951a95d0-c372-456e-9867-594167a56dfd" />
