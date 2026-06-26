@@ -18,9 +18,6 @@ The system collects CSI data from ESP32 receivers, processes the signal data, an
 
 ## 2. Simple System Pipeline
 
-![System Pipeline](docs/images/system_pipeline.svg)
-
-**Simple explanation:**
 
 ```text
 ESP32 transmitter sends WiFi packets
@@ -53,15 +50,12 @@ The two receivers are placed at different heights:
 
 This gives the system two different signal views of the same human movement.
 
-**Image to add:** `docs/images/esp32_csi_setup.jpg`  
-**Caption:** ESP32 transmitter and two ESP32 receivers used for WiFi CSI data collection.  
-**What to capture:** Take one clear photo of the room/setup and mark TX, RX high, RX low, laptop, and phone camera if possible.
+<img width="494" height="301" alt="image" src="https://github.com/user-attachments/assets/2cc347fd-f776-4f54-af0a-6a40b1472389" />
+
 
 ## 4. Example CSI Signal
 
-![CSI Signal Example](docs/images/tool_csi_wave.jpg)
-
-**Caption:** Example CSI amplitude difference between empty-room and person-present cases.
+<img width="1253" height="444" alt="image" src="https://github.com/user-attachments/assets/0959b007-f0af-4662-b666-1aa3fe67474c" />
 
 This image helps reviewers quickly understand the idea: human presence and movement change the WiFi signal pattern.
 
@@ -112,15 +106,8 @@ The honest conclusion is: **ESP32 CSI works well for presence detection and acti
 
 ## 8. Example Pose Evaluation
 
-![Pose Evaluation Samples](eval_out/pose_rx2_eval_samples.png)
+<img width="516" height="927" alt="image" src="https://github.com/user-attachments/assets/5e5b4226-d5b9-4393-a9f7-76954a202d76" />
 
-**Caption:** Example predicted keypoints compared with ground-truth keypoints.
-
-**Important note:** This result is experimental. If asked in an interview, explain that the model can roughly locate the body, but it cannot predict precise human joints like camera-based pose estimation.
-
-**Image to add:** `docs/images/mediapipe_label.png`  
-**Caption:** Example MediaPipe keypoint labels used as training targets.  
-**What to capture:** A screenshot of a person frame with MediaPipe skeleton/keypoints.
 
 ## 9. Repository Structure
 
