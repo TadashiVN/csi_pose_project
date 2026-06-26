@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "created": "2026-06-17T22:08:10.913287",
+    "ports": [
+      "COM9",
+      "COM3"
+    ],
+    "nodes": 2,
+    "subcarriers": 52,
+    "window_size": 20,
+    "window_stride": 10,
+    "align_tol_s": 0.3,
+    "keypoints_idx": [
+      0,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      23,
+      24,
+      25,
+      26
+    ],
+    "keypoints_name": [
+      "nose",
+      "left_shoulder",
+      "right_shoulder",
+      "left_elbow",
+      "right_elbow",
+      "left_wrist",
+      "right_wrist",
+      "left_hip",
+      "right_hip",
+      "left_knee",
+      "right_knee",
+      "left_ankle",
+      "right_ankle",
+      "left_eye",
+      "right_eye",
+      "left_ear",
+      "right_ear"
+    ],
+    "activities": [
+      "walk",
+      "stand",
+      "sit",
+      "fall",
+      "empty",
+      "arms_horizontal",
+      "arms_up"
+    ]
+  },
+  "distribution": {
+    "empty": 3762,
+    "sit": 1051,
+    "stand": 1155,
+    "walk": 981,
+    "fall": 1105
+  },
+  "total_samples": 8054,
+  "nodes": 2,
+  "npz_file": "session_demo.npz",
+  "note": "Data thuc nam trong file .npz. File .json nay chi chua metadata."
+}

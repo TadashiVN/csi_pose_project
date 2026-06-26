@@ -1,0 +1,49 @@
+<svg width="980" height="260" viewBox="0 0 980 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#333" />
+    </marker>
+    <style>
+      .box { fill:#f8f8f8; stroke:#333; stroke-width:2; rx:12; }
+      .label { font-family: Arial, sans-serif; font-size:16px; fill:#111; font-weight:600; }
+      .small { font-family: Arial, sans-serif; font-size:13px; fill:#333; }
+      .arrow { stroke:#333; stroke-width:2.2; marker-end:url(#arrow); fill:none; }
+      .note { font-family: Arial, sans-serif; font-size:12px; fill:#555; }
+    </style>
+  </defs>
+
+  <rect x="25" y="70" width="140" height="80" class="box"/>
+  <text x="95" y="103" text-anchor="middle" class="label">ESP32 TX</text>
+  <text x="95" y="127" text-anchor="middle" class="small">sends WiFi packets</text>
+
+  <rect x="220" y="45" width="155" height="55" class="box"/>
+  <text x="297" y="78" text-anchor="middle" class="label">ESP32 RX high</text>
+  <rect x="220" y="125" width="155" height="55" class="box"/>
+  <text x="297" y="158" text-anchor="middle" class="label">ESP32 RX low</text>
+
+  <rect x="430" y="70" width="145" height="80" class="box"/>
+  <text x="502" y="103" text-anchor="middle" class="label">CSI Data</text>
+  <text x="502" y="127" text-anchor="middle" class="small">USB / Serial</text>
+
+  <rect x="630" y="70" width="145" height="80" class="box"/>
+  <text x="703" y="103" text-anchor="middle" class="label">Python</text>
+  <text x="703" y="127" text-anchor="middle" class="small">preprocess + model</text>
+
+  <rect x="830" y="25" width="125" height="50" class="box"/>
+  <text x="893" y="56" text-anchor="middle" class="small">Presence</text>
+  <rect x="830" y="95" width="125" height="50" class="box"/>
+  <text x="893" y="126" text-anchor="middle" class="small">Activity</text>
+  <rect x="830" y="165" width="125" height="50" class="box"/>
+  <text x="893" y="196" text-anchor="middle" class="small">Coarse Pose</text>
+
+  <path d="M165 110 C185 75, 195 72, 220 72" class="arrow"/>
+  <path d="M165 110 C185 150, 195 152, 220 152" class="arrow"/>
+  <path d="M375 72 C395 85, 405 95, 430 110" class="arrow"/>
+  <path d="M375 152 C395 135, 405 125, 430 110" class="arrow"/>
+  <path d="M575 110 L630 110" class="arrow"/>
+  <path d="M775 110 C805 60, 810 50, 830 50" class="arrow"/>
+  <path d="M775 110 L830 120" class="arrow"/>
+  <path d="M775 110 C805 170, 810 190, 830 190" class="arrow"/>
+
+  <text x="490" y="225" text-anchor="middle" class="note">Camera + MediaPipe are used only during training to create labels, not as the CSI inference input.</text>
+</svg>

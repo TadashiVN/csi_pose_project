@@ -1,0 +1,5 @@
+model,val_acc,params_M,latency_ms,fps
+cnn_bilstm,96.79,2.546,1.32,757.4
+cnn_only,97.54,0.103,0.48,2082.6
+lstm_only,97.56,2.385,1.28,781.2
+mlp,74.46,1.132,0.14,7141.3

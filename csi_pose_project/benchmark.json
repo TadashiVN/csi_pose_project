@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Activity (CNN+BiLSTM)",
+    "checkpoint": "activity7_random.pth",
+    "subcarriers": 104,
+    "params_total": 2545735,
+    "params_M": 2.546,
+    "model_size_MB": 10.19,
+    "flops": 48552704,
+    "flops_M": 48.6,
+    "latency_ms": 2.043,
+    "fps": 489.4,
+    "device": "cuda"
+  },
+  {
+    "name": "Pose (CNN+BiLSTM)",
+    "checkpoint": "pose_rx2.pth",
+    "subcarriers": 104,
+    "params_total": 2581218,
+    "params_M": 2.581,
+    "model_size_MB": 10.34,
+    "flops": 48588032,
+    "flops_M": 48.6,
+    "latency_ms": 1.35,
+    "fps": 740.6,
+    "device": "cuda"
+  },
+  {
+    "name": "Presence (CNN+BiLSTM)",
+    "checkpoint": "presence_rx2.pth",
+    "subcarriers": 104,
+    "params_total": 91297,
+    "params_M": 0.091,
+    "model_size_MB": 0.37,
+    "flops": 1690176,
+    "flops_M": 1.7,
+    "latency_ms": 0.68,
+    "fps": 1470.3,
+    "device": "cuda"
+  }
+]

@@ -1,0 +1,13 @@
+test_session,accuracy
+session_01.npz,26.23
+session_02.npz,21.71
+session_03.npz,36.86
+session_04.npz,36.55
+session_05.npz,45.88
+session_06.npz,32.96
+session_07.npz,26.51
+session_08.npz,27.76
+session_09.npz,28.73
+session_10.npz,26.95
+MEAN,31.01
+STD,6.72

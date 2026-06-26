@@ -1,0 +1,4 @@
+name,subcarriers,params_M,model_size_MB,flops_M,latency_ms,fps,device
+Activity (CNN+BiLSTM),104,2.546,10.19,48.6,2.043,489.4,cuda
+Pose (CNN+BiLSTM),104,2.581,10.34,48.6,1.35,740.6,cuda
+Presence (CNN+BiLSTM),104,0.091,0.37,1.7,0.68,1470.3,cuda
